@@ -1,0 +1,123 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(36, 132, 105);
+}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+}
+
+.bordered {
+    border: 1px solid rgb(90, 82, 82);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header,
+footer {
+    background-color: rgb(166, 235, 121);
+    border: 1px solid black;
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+}
+
+footer {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav li {
+    display: inline;
+    padding-right: 10px;
+}
+
+a {
+    color: #1199e7;
+}
+
+.boxed {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.30), 0 0 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+#main {
+    min-height: 600px;
+    border: 1px solid rgb(59, 48, 48);
+    border-radius: 5px;
+    color: #202020;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+#results {
+    width: 300px;
+    padding: 2px;
+    border: 1px solid rgb(90, 82, 82);
+    vertical-align: top;
+    display: inline-block;
+}
+
+.result {
+    margin: 5px;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.result .title {
+    font-weight: bold;
+}
+
+.loginform {
+    width: 400px;
+    padding: 5px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#errorMsg {
+    color: #f00;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+f .loginform label {
+    width: 120px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.loginform input[type=text],
+.loginform input[type=password] {
+    width: 150px;
+    margin: 2px;
+    border: 1px solid rgb(39, 197, 158);
+}
+
+.loginform input[type=submit],
+.loginform input[type=reset],
+button {
+    background-color: rgb(20, 194, 93);
+    color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+    width: 75px;
+}
+
+#logoutSection {
+    display: none;
+}
+
+#main input[type=reset] {
+    background-color: rgb(126, 125, 125);
+}

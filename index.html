@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mysirg.com</title>
+
+    <Link rel="stylesheet" type="text/css" href="css/style.css">
+    </Link>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ol>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/courses.html">Course</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ol>
+            </nav>
+            <img src="images/image.png" />
+            <!-- <h1 style="padding-left: 5px;">Home</h1> -->
+        </header>
+
+        <section id='main' class="boxed">
+            <p>This is <em>Home</em> Page of <strong>mysirg.com</strong></p>
+            <div class="loginform boxed">
+                <form action="/api/login" method="POST" id="loginForm">
+                    <label for="username">Username</label>
+                    <input name="username" type="text" id="username" /></br>
+                    <label for="password">Password</label>
+                    <input name="password" type="password" id="password" /></br>
+                    <input name="RememberMe" type="checkbox" id="RememberMe" />
+                    <label for="RememberMe">Remember Me</label><br><br>
+
+                    <div id="errorMsg"></div>
+
+                    <input name="LoginButton" type="submit" value="Login" />
+                    <input name="CancelButton" type="reset" value="Cancel" />
+                </form>
+                <div id="logoutSection">
+                    <p>You are currently logged in</p>
+                    <button id="logoutButton">Logout</button>
+                </div>
+            </div>
+            <div id="results">
+                <button id="toggleButton">
+                    Hide
+                </button>
+                <div id="resultList">
+                    Here we will display the results
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            &copy; 2017 Mysirg.com
+        </footer>
+    </div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
